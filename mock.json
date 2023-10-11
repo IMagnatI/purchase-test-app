@@ -1,0 +1,244 @@
+{
+  "skills": [
+    {
+      "id": "1",
+      "name": "Angular Advanced Topics"
+    },
+    {
+      "id": "2",
+      "name": "Angular style encapsulation"
+    },
+    {
+      "id": "3",
+      "name": "Angular Decorators"
+    },
+    {
+      "id": "4",
+      "name": "Angular slots"
+    }
+  ],
+  "certificatesGroup": [
+    {
+      "data": [
+        {
+          "id": "1",
+          "name": "backendDevelopment",
+          "description": "Backend development certifications validating skills in designing and implementing server-side applications, databases, and APIs, ensuring the smooth functioning and performance of web and software applications.",
+          "isDefault": true,
+          "default": true
+        },
+        {
+          "id": "2",
+          "name": "createdByEmployees",
+          "description": "Here you can find all certifications that were created by your employees and didn’t match any of the entries previously made the administrator.",
+          "isDefault": true,
+          "default": true
+        },
+        {
+          "id": "3",
+          "name": "loremIpsum1",
+          "description": "Lorem ipsum dolor ademit, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+          "isDefault": false,
+          "default": false
+        }
+      ],
+      "totalCount": 3
+    }
+  ],
+  "certificatesInfo": [
+    {
+      "data": [
+        {
+          "id": "1",
+          "name": "Research and Development Professional (RDP)",
+          "organization": "Google",
+          "linkedSkillsId": ["1", "2", "45"],
+          "certificateGroupModelId": "1"
+        },
+        {
+          "id": "2",
+          "name": "Development Professional",
+          "organization": "Linux",
+          "linkedSkillsId": ["12", "21", "45"],
+          "certificateGroupModelId": "2"
+        },
+        {
+          "id": "3",
+          "name": "Angular Development",
+          "organization": "IBM",
+          "linkedSkillsId": ["12", "21", "45"],
+          "certificateGroupModelId": "3"
+        }
+      ],
+      "totalCount": 3
+    }
+  ],
+  "certificates": [
+    {
+      "certificate": {
+        "id": "1",
+        "name": "Research and Development Professional (RDP)",
+        "certificateInfoModelId": "2",
+        "issueDate": "2020-01-01T00:00:00.000Z",
+        "expirationDate": "2022-01-01T00:00:00.000Z",
+        "certificateFilesId": ["14", "24"],
+        "credentialId": "2",
+        "credentialUrl": "https://www.onet.pl/"
+      },
+      "certificateInfo": {
+        "id": "1",
+        "name": "Research and Development Professional (RDP)",
+        "organization": "Google",
+        "linkedSkillsId": ["1", "2", "45"],
+        "certificateGroupModelId": "1"
+      },
+      "certificateGroup": {
+        "id": "1",
+        "name": "backendDevelopment",
+        "description": "Backend development certifications validating skills in designing and implementing server-side applications, databases, and APIs, ensuring the smooth functioning and performance of web and software applications.",
+        "isDefault": true,
+        "default": true
+      },
+      "totalCount": 3
+    },
+    {
+      "certificate": {
+        "id": "2",
+        "name": "Angular Professional",
+        "certificateInfoModelId": "2",
+        "issueDate": "2021-01-01T00:00:00.000Z",
+        "expirationDate": "2022-01-01T00:00:00.000Z",
+        "certificateFilesId": ["15", "21"],
+        "credentialId": "6",
+        "credentialUrl": "https://www.wp.pl/"
+      },
+      "certificateInfo": {
+        "id": "2",
+        "name": "Development Professional",
+        "organization": "Linux",
+        "linkedSkillsId": ["12", "21", "45"],
+        "certificateGroupModelId": "2"
+      },
+      "certificateGroup": {
+        "id": "2",
+        "name": "createdByEmployees",
+        "description": "Here you can find all certifications that were created by your employees and didn’t match any of the entries previously made the administrator.",
+        "isDefault": true,
+        "default": true
+      },
+      "totalCount": 3
+    },
+    {
+      "certificate": {
+        "id": "3",
+        "name": "Vue Professional",
+        "certificateInfoModelId": "3",
+        "issueDate": "2019-01-01T00:00:00.000Z",
+        "expirationDate": "2022-01-01T00:00:00.000Z",
+        "certificateFilesId": ["2", "51"],
+        "credentialId": "8",
+        "credentialUrl": "https://www.wp.pl/"
+      },
+      "certificateInfo": {
+        "id": "3",
+        "name": "Angular Development",
+        "organization": "IBM",
+        "linkedSkillsId": ["12", "21", "45"],
+        "certificateGroupModelId": "3"
+      },
+      "certificateGroup": {
+        "id": "3",
+        "name": "loremIpsum1",
+        "description": "Lorem ipsum dolor ademit, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+        "isDefault": false,
+        "default": false
+      },
+      "totalCount": 3
+    }
+  ],
+  "manager": {
+    "certificates": [
+      {
+        "certificate": {
+          "id": "1",
+          "name": "React Professional",
+          "certificateInfoModelId": "2",
+          "issueDate": "2018-01-01T00:00:00.000Z",
+          "expirationDate": "2022-01-01T00:00:00.000Z",
+          "certificateFilesId": ["23", "1"],
+          "credentialId": "2",
+          "credentialUrl": "https://www.google.com/"
+        },
+        "certificateInfo": {
+          "id": "1",
+          "name": "Research and Development Professional (RDP)",
+          "organization": "Google",
+          "linkedSkillsId": ["1", "2", "45"],
+          "certificateGroupModelId": "1"
+        },
+        "certificateGroup": {
+          "id": "1",
+          "name": "backendDevelopment",
+          "description": "Backend development certifications validating skills in designing and implementing server-side applications, databases, and APIs, ensuring the smooth functioning and performance of web and software applications.",
+          "isDefault": true,
+          "default": true
+        },
+        "totalCount": 3
+      },
+      {
+        "certificate": {
+          "id": "2",
+          "name": "Vue3 Professional",
+          "certificateInfoModelId": "4",
+          "issueDate": "2019-01-01T00:00:00.000Z",
+          "expirationDate": "2024-01-01T00:00:00.000Z",
+          "certificateFilesId": ["3", "2"],
+          "credentialId": "4",
+          "credentialUrl": "https://www.onet.pl/"
+        },
+        "certificateInfo": {
+          "id": "2",
+          "name": "Development Professional",
+          "organization": "Linux",
+          "linkedSkillsId": ["12", "21", "45"],
+          "certificateGroupModelId": "2"
+        },
+        "certificateGroup": {
+          "id": "2",
+          "name": "createdByEmployees",
+          "description": "Here you can find all certifications that were created by your employees and didn’t match any of the entries previously made the administrator.",
+          "isDefault": true,
+          "default": true
+        },
+        "totalCount": 3
+      },
+      {
+        "certificate": {
+          "id": "3",
+          "name": "Typescript Professional",
+          "certificateInfoModelId": "3",
+          "issueDate": "2018-01-01T00:00:00.000Z",
+          "expirationDate": "2024-01-01T00:00:00.000Z",
+          "certificateFilesId": ["2", "13"],
+          "credentialId": "32",
+          "credentialUrl": "https://www.google.com/"
+        },
+        "certificateInfo": {
+          "id": "3",
+          "name": "Angular Development",
+          "organization": "IBM",
+          "linkedSkillsId": ["12", "21", "45"],
+          "certificateGroupModelId": "3"
+        },
+        "certificateGroup": {
+          "id": "3",
+          "name": "loremIpsum1",
+          "description": "Lorem ipsum dolor ademit, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+          "isDefault": false,
+          "default": false
+        },
+        "totalCount": 3
+      }
+    ]
+  }
+}
