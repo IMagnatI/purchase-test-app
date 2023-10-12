@@ -13,6 +13,8 @@ import vSelect from 'vue-select'
 import 'vue-select/dist/vue-select.css'
 import pl from '@/translations/pl'
 import en from '@/translations/en'
+import CartService from '@/stores/cartService'
+import CountryService from '@/stores/CountryService'
 
 //eslint-disable-next-line
 const i18n = createI18n({
@@ -34,3 +36,5 @@ app.directive('debounce', vue3Debounce({ lock: true }))
 app.mount('#app')
 
 //Initialize pinia stores
+export const cartServices = new CartService()
+export const countryServices = new CountryService()

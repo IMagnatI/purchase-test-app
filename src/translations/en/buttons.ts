@@ -1,3 +1,7 @@
 export default {
-  button: {},
+  button: {
+    next: 'Next',
+    finishStep: 'Complete purchase',
+    prev: 'previous step',
+  },
 }
